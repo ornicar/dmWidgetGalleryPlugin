@@ -1,0 +1,14 @@
+js:
+
+  dmWidgetGalleryPlugin:
+    
+    view:      view
+    form:      form
+    cycle:     cycle/jquery.cycle.lite-1.0.min
+
+css:
+
+  dmWidgetGalleryPlugin:
+    
+    view:      view
+    form:      form
