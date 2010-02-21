@@ -51,6 +51,7 @@ div.dm_widget_content_gallery_form li.media_element input {
 
 div.dm_widget_content_gallery_form li.media_element input[type=hidden] {
   visibility: hidden;
+  display: none;
 }
 
 div.dm_widget_content_gallery_form li.media_element input:hover,
@@ -58,11 +59,10 @@ div.dm_widget_content_gallery_form li.media_element input:active {
   background: #FFF;
 }
 
-
 div.dm_widget_content_gallery_form li.media_element input.droppable_active {
-  background: url(../../../dm/core/images/default_bg_yellow.png) repeat-x scroll 50% 50%;
+  background: url(../../dmCorePlugin/images/default_bg_yellow.png) repeat-x scroll 50% 50%;
 }
 
 div.dm_widget_content_gallery_form li.media_element input.droppable_hover {
-  background: url(../../../dm/core/images/default_bg_green.png) repeat-x scroll 50% 50%;
+  background: url(../../dmCorePlugin/images/default_bg_green.png) repeat-x scroll 50% 50%;
 }

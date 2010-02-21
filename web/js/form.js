@@ -64,6 +64,8 @@ $.fn.extend({
 		          $li.remove();
 		        }
 		      });
+
+          $li.find('input.dm_link_droppable').dmDroppableInput();
         },
         error:   function() {
           $li.unblock().remove();
