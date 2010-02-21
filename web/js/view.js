@@ -1,6 +1,6 @@
 (function($) {
   
-  $('#dm_page div.dm_widget.dm_widget_content_gallery').live('dmWidgetLaunch', function()
+  $('#dm_page div.dm_widget.content_gallery').live('dmWidgetLaunch', function()
   {
     var $gallery = $(this).find('ol.dm_widget_content_gallery');
 
