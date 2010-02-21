@@ -49,6 +49,10 @@ div.dm_widget_content_gallery_form li.media_element input {
   width: 78%
 }
 
+div.dm_widget_content_gallery_form li.media_element input[type=hidden] {
+  visibility: hidden;
+}
+
 div.dm_widget_content_gallery_form li.media_element input:hover,
 div.dm_widget_content_gallery_form li.media_element input:active {
   background: #FFF;
